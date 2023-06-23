@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+
+
+:root {
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Dancing Script', cursive;
+    --fonte3:'Caveat', cursive;
+
+    --cor1:#D4C2AD;
+    --cor2:#D7A184;
+    --cor3:#EFDFCC;
+    --cor4:#BA8E7A;
+    --cor5:#66796B;
+    --cor6:#252e28;
+}
+    
+* {
+    margin: 0px;
+    padding: 0px;
+}
+   
+body{
+    background-color: var(--cor1);
+    font-family: var(--fonte1);
+}
+
+header {
+    background-image: linear-gradient(to top, var(--cor2), var(--cor4));
+    height: 130px;
+    text-align: center;
+    padding: 10px;
+}
+
+header > h1 {
+    font-family: var(--fonte2);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.342);
+    color: var(--cor6);
+    font-size: 4em;
+    padding: 5px;
+    font-weight: bolder;
+}
+
+header > p {
+    font-family: var(--fonte3);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+    color: var(--cor6);
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+nav {
+    background-color: var(--cor5);
+    height: 40px;
+}
+
+nav > a {
+    font-family: var(--fonte3);
+    font-size: 1.6em;
+    font-weight: border;
+    color: var(--cor6);
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.555);
+    padding: 10px;
+}
+
+a:hover {
+    color: var(--cor3);
+    text-decoration: underline;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+section > p {
+    
+}
+
+iframe {
+    width: 600px;
+    height: 450px;
+}
+
+
