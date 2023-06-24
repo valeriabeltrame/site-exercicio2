@@ -24,7 +24,9 @@
     padding: 0px;
 }
    
-body{
+html, body{
+    min-width: 100vw;
+    min-height: 100vh;
     background-color: var(--cor1);
     font-family: var(--fonte1);
 }
@@ -34,6 +36,7 @@ header {
     height: 130px;
     text-align: center;
     padding: 10px;
+    margin: auto;
 }
 
 header > h1 {
@@ -56,6 +59,7 @@ header > p {
 nav {
     background-color: var(--cor5);
     height: 40px;
+    margin: auto;
 }
 
 nav > a {
@@ -79,13 +83,36 @@ main {
     padding: 20px;
 }
 
-section > p {
+main > div#confeitaria {
+    background-image: url('../imagens/confeitaria/rocambole.jpg');
+    position: relative;
     
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
 }
 
-iframe {
-    width: 600px;
-    height: 450px;
+div > p {
+    position: absolute;
+    left: 42%;
+    top: 70%;
+   
+    width: 700px;
+    height: 300px;
+    padding: 20px;
+
+}
+    
+
+
+footer {
+    background-color: var(--cor5);
+    color: var(--cor6);
+    font-family: var(--fonte3);
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.281);
+    text-align: center;
+    padding: 10px;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.459);
 }
 
 
